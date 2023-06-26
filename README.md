@@ -2,34 +2,38 @@
 ​
 ## Introduction
 ​
-Welcome to Restaurants Insights, a Ruby-based Command Line Application powered by a clean and manageable relational database in order to give answers to the deep questions the Insights research team has come up with.
+Welcome to Restaurants Insights, a powerful Command Line Application designed in Ruby. 
+Our program leverages a robust and optimized PostgreSQL relational database to provide valuable insights drawn from complex restaurant data. 
+It is aimed at satisfying the users' need of insights by answering their deep-seated questions.
 ​
 ## Features
 ​
-- Automated database update every time you need.
-- Allows the user to input the csv file they prefer via the command line.
-- Organizes and uses the information from the research using sql queries, databases and tables.
-- Different options to organize the required lists.
+- Automated database updates: always work with the latest data.
+- Flexibility: users can input their preferred CSV file directly via the command line.
+- Efficient data organization: leverages the power of SQL queries to efficiently organize, 
+  manage and extract insights from the provided data.
+- Variety of display options: users can choose how they want their lists organized.
 - Shows the lists in clean and easy to read terminal tables.
-- Colorful interface for an enjoyable user experience.
+- User-friendly output: data is presented in easy-to-read, colorful terminal tables for an enhanced user experience.
 
-​
 ## Technologies
 ​
-- Ruby
-- PostgreSQL
-​
+- Ruby (version 3.1.2p20 or higher): for the application logic and user interface.
+- PostgreSQL (version 14.8 or higher): for robust and efficient data management.
+
 ## Installation and Usage
 ​
-1. Clone this repository to your local machine.
-2. Navigate to the directory of the cloned repository via the terminal.
-3. Run `bundle install` to install required RubyGems.
-4. Start the app by running `bash db_reset.sh`. You can also input a different csv file inside db_reset.sh file, line 4 (instead of   "data.csv").
-5. Select the desired option from the menu and the additional filter or field when prompted.
+1. Ensure that you have Ruby (version 3.0.0 or higher) and PostgreSQL (version 12.0 or higher) installed on your system.
+2. Create a PostgreSQL database named `insights`. You can do this with the command: `createdb insights` in your terminal.
+3. Clone this repository to your local machine.
+4. Navigate to the directory of the cloned repository via the terminal.
+5. Run `bundle install` to install required RubyGems.
+6. Start the app by running `bash db_reset.sh`. If you want to input a different CSV file, modify line 4 in the `db_reset.sh` file (replace "../data/data.csv" with your preferred file).
+7. Follow the prompts to select your desired option from the menu, along with any additional filters or fields.
 ​
 ## Contribution
 ​
-Feel free to contribute to Restaurants Insights. Just open a pull request to propose any changes.
+We welcome contributions to Restaurants Insights! If you have ideas for improvements or bug fixes, feel free to open a pull request.
 ​
 ## License
 ​
