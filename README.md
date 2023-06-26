@@ -23,7 +23,7 @@ It is aimed at satisfying the users' need of insights by answering their deep-se
 
 ## Installation and Usage
 ​
-1. Ensure that you have Ruby (version 3.0.0 or higher) and PostgreSQL (version 12.0 or higher) installed on your system.
+1. Ensure that you have Ruby (version 3.1.2p20 or higher) and PostgreSQL (version 14.8 or higher) installed on your system.
 2. Create a PostgreSQL database named `insights`. You can do this with the command: `createdb insights` in your terminal.
 3. Clone this repository to your local machine.
 4. Navigate to the directory of the cloned repository via the terminal.
